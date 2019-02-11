@@ -6,6 +6,7 @@ https://github.com/observerss/textfilter
 
 `pip install git+https://github.com/lsdlab/textfilter.git`
 
+
 ```python
 from textfilter import filter
 f = filter.DFAFilter()
