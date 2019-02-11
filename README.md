@@ -7,6 +7,7 @@ https://github.com/observerss/textfilter
 `pip install git+https://github.com/lsdlab/textfilter.git`
 
 ```python
+from textfilter import DFAFilter
 f = DFAFilter()
 f.add("sexy")
 f.filter("hello sexy baby")
